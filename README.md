@@ -1,6 +1,6 @@
-## PaySky Button SDK
+## Numo Button SDK
 
-The purpose of this SDK to help programmers to use PaySky payment SDK for IOS .
+The purpose of this SDK to help programmers to use Numo payment SDK for IOS .
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ A step by step that tell you how to get our SDK in your project.
 ```
 1- open your xcode project.
 2- in your project in Podfile in project level  add :-
-pod 'PayButton'
+pod 'PayButtonNumo'
 3- open your terminal in project path and write this command:-
 (for first try)
 - pod deintegrate
@@ -37,12 +37,12 @@ pod 'PayButton'
 ```
 in order to use our SDK you should get merchant id and Terminal id from our company.
 
-1-import PayButton
-2 – create a new instance from PayButton:-  
+1-import PayButtonNumo
+2 – create a new instance from PayButtonNumo:-  
 
  let paymentViewController = PaymentViewController ()
 
-you need to just pass some parameters to PayButton class instance :-
+you need to just pass some parameters to PayButtonNumo class instance :-
   1-Merchat id.
   2-Terminal id.
   3-Payment amount.
@@ -144,7 +144,7 @@ in your project, encrypt them before save them in project.
 **PaySky Company** - (https://www.paysky.io)
 
 ## Sample Project
-**https://github.com/payskyCompany/PayButtonIOSExample.git**
+**https://github.com/payskyCompany/NUMO-PayButton-SDK-ios-example.git**
 
 
 
