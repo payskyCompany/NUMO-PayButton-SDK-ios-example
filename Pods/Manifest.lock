@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.0.5)
+  - DynamicBlurView (4.1.0)
+  - EVReflection (5.10.1):
+    - EVReflection/Core (= 5.10.1)
+  - EVReflection/Core (5.10.1)
+  - MOLH (1.4.3)
+  - PayButtonNumo (1.0.3):
+    - Alamofire (~> 5.0.5)
+    - EVReflection (~> 5.10.1)
+    - MOLH (~> 1.4.1)
+    - PayCardsRecognizer (~> 1.1.7)
+    - PopupDialog (~> 1.1.1)
+  - PayCardsRecognizer (1.1.7)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+
+DEPENDENCIES:
+  - PayButtonNumo
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DynamicBlurView
+    - EVReflection
+    - MOLH
+    - PayButtonNumo
+    - PayCardsRecognizer
+    - PopupDialog
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  EVReflection: 8124de482178d34ccd56473e16cd95990f9a1113
+  MOLH: e45827d200aeb1310641090fd8cd03ad2b42ae72
+  PayButtonNumo: e18b0c49f0e0fc1d155167c6f4b47648ef30dede
+  PayCardsRecognizer: 2e4d1b2fdd5f1528fb56064a91e1d58a1af7a2db
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+
+PODFILE CHECKSUM: 43e4aa915a2b341d52874470a29296c5b5a10870
+
+COCOAPODS: 1.10.1
