@@ -63,6 +63,8 @@ Example:-
         paymentViewController.Currency = "currencyCode" // Currency Code [Optional]
         paymentViewController.refnumber = "reference number""  // unique transaction reference number.
         paymentViewController.Key = "Merchant secure hash" // merchant secrue hash
+        paymentViewController.AppStatus = .Numo_Testing // for testing environment
+        paymentViewController.AppStatus = .Numo_Production // for production environment
         paymentViewController.pushViewController()
 
        
